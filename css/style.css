@@ -7,36 +7,16 @@
 
 
 :root{
- /*  ### Primary */
+   /*  ### Primary */
 
---Pink: hsl(322, 100%, 66%);
+  --Pink: hsl(322, 100%, 66%);
 
-/* ### Neutral */
+  /* ### Neutral */
 
---VeryPaleCyan: hsl(193, 100%, 96%);
---VeryDarkCyan: hsl(192, 100%, 9%);
---GrayishBlue: hsl(208, 11%, 55%);
+  --VeryPaleCyan: hsl(193, 100%, 96%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --GrayishBlue: hsl(208, 11%, 55%);
 
-
-
-/* ### Headings
-
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 600
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-### Body, Call-to-actions
-
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400, 700
-
-## Icons
-
-For the social icons, you can use a font icon library. Some suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com/)
-- [IcoMoon](https://icomoon.io/)
-- [Ionicons](https://ionicons.com/) */
 }
 
 a{
@@ -58,17 +38,10 @@ p{
 /* ##### Section -> header ##### */
 
 .header {
-  border: 1px red solid;
   background-image:url('../images/bg-hero-desktop.svg');
   background-repeat: no-repeat;
   background-color: var(--VeryPaleCyan);
   padding-bottom: 50px;
-  
- 
-  
-  
- 
-  
 }
 
 .header-container {
@@ -85,11 +58,8 @@ p{
 }
 
 .header-container a{
-  /* border: 1px red solid; */
   color: var(--VeryDarkCyan);
-  
   background-color: white;
-  
   -webkit-box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
@@ -100,12 +70,10 @@ p{
 }
 
 .hero{
-  border: 1px black solid;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 70px;
-
 }
 
 .hero-detail h1{
@@ -115,16 +83,13 @@ p{
 }
 
 .hero-img img{
-  width: 600px;
+  width: 100%;
   margin-top: 10px;
 }
 
 .hero-detail p{
-  
   color: var(--VeryDarkCyan);
   margin: 20px 0 30px 0;
-  /* padding-right: 100px; */
-  
 }
 
 .hero-detail a{
@@ -149,14 +114,12 @@ p{
 }
 
 .main-container{
-  /* border: 1px red solid; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   width: 90%;
   padding: 50px 30px 40px 100px;
   margin-bottom: 40px;
-  
   border-radius: 20px;
   -webkit-box-shadow: 0px 0px 32px -19px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 32px -19px rgba(0,0,0,0.75);
@@ -173,7 +136,6 @@ p{
 }
 
 .main-contaier-detail{
-  border: 1px purple solid;
   width: 458px;
 }
 .main-contaier-detail p {
