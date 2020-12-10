@@ -174,9 +174,14 @@ p{
 
 .main-contaier-detail{
   border: 1px purple solid;
-  
+  width: 458px;
 }
 .main-contaier-detail p {
   color: var(--GrayishBlue);
   margin-top: 20px;
+}
+
+.change{
+  display: flex;
+  flex-direction: row-reverse;
 }
